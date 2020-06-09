@@ -1,6 +1,6 @@
 type Query {
-    getMovie(id: ID!): Movie
-    getUser(id: ID!): User
+    getMovie(id: String!): Movie
+    getUser(id: Int!): User
 }
 
 type Mutation {

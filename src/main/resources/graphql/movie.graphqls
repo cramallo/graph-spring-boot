@@ -1,5 +1,5 @@
 type Movie {
-    id: ID!
+    id: String!
     title: String
     director: Director
 }
